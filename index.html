@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="header">
+        <img src="./image_27-removebg-preview.png" alt="logo" class="logo">
+        <h3>Classroom Profile</h3>
+        <div class="right">
+            <button onclick="pages3()"> <h5>Go to Classroom</h5>
+                <p style="font-size: 1rem;"><i class='bx bx-chevron-right'></i></p>    
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="information">
+            <div class="pic">
+                <img src="./BeautyPlus_20180119191116_save-min.jpg" alt="picture">
+                <p><i class='bx bx-camera'></i></p>
+                <h3>Ogwuadi Collins</h3>
+            </div>
+
+            <div>
+                <div class="profile" onclick="pages31()">
+                    <p style="font-size: 2rem;"><i class='bx bx-user'></i></p>
+
+                    <h3>Profile</h3>
+
+                    <p style="font-size: 2rem;"><i class='bx bx-chevron-right' id="shi"></i></p>
+                </div>
+
+                <div class="profile" onclick="pages3()">
+                    <p style="font-size: 2rem;"><i class='bx bx-layer-plus'></i></p>
+
+                    <h3>Courses</h3>
+
+                    <p style="font-size: 2rem;"><i class='bx bx-chevron-right' id="thi"></i></p>
+                </div>
+
+                <div class="profile">
+                    <p style="font-size: 2rem;"><i class='bx bxs-badge-check'></i></p>
+
+                    <h3>Attendance</h3>
+
+                    <p style="font-size: 2rem;"><i class='bx bx-chevron-right'></i></p>
+                </div>
+            </div>
+
+            <div class="logout">
+                <p style="font-size: 1.8rem;"><i class='bx bx-log-out'></i></p>
+
+                <h3>Logout</h3>
+            </div>
+
+        </div>
+
+
+        <div class="course">
+            <div class="weep">
+                <h3><span>1.</span>Course of study in school:</h3>
+
+                <input type="text" id="Name" name="Name" placeholder="Jane Doe">
+            </div>
+
+            <div class="weep">
+                <div class="weep">
+                    <h3><span>2.</span>Are you a Student? <span><i id="style" class='bx bx-check'>Yes</i></span></h3></h3>
+        
+                    <button class="btns">Yes</button>
+                    <button>No</button>
+                </div>
+                 
+                <div id="graduates">
+                    <input type="text" id="Name" name="Name" placeholder="Course of study">
+        
+                    <input type="text" id="Name" name="Name" placeholder="Expected Graduation date">
+                </div>
+            </div>
+
+            <div class="weep">
+                <h3><span>3.</span>Did you graduate? <span><i id="styles" class='bx bx-x'>No</i></span></h3>
+
+                <div class="but">
+                    <button>Yes</button>
+                    <button class="btnss">No</button>
+                </div>
+
+                <div id="graduatess">                  
+                    <input type="text" id="Name" name="Name" placeholder="Curren Occupation">
+                </div>
+            </div>
+
+            <div class="weep">
+                <h3><span>4.</span>Does your country require post-graduate Service? <span><i id="styless" class='bx bx-check'>Yes</i></span></h3>
+
+                <div class="but">
+                    <button class="btnsss">Yes</button>
+                    <button>No</button>
+                </div>
+
+                <div id="graduatesss">                  
+                    <h3><span></span>Have you Completed? <span><i id="stylesss" class='bx bx-check'>Yes</i></span></h3>
+                </div>
+
+                <div id="graduatessss">
+                    <button class="btnssss">Yes</button>
+                    <button>No</button>
+                </div>
+            </div>
+
+            <div class="next">
+                <button onclick="page()">Next Step <span class="next2"><i class='bx bx-chevron-right'></i></span></button>
+            </div>
+        </div>
+
+    </main>
+
+
+    
+    <script src="intro.js"></script>
+</body>
+</html>

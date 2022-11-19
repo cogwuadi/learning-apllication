@@ -1,0 +1,1672 @@
+
+*{
+    margin: 0;
+    padding: 0;    
+    font-family: sans-serif !important;
+    list-style-type: none;
+}
+body, html{
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+    color: var(--text-color);
+    background-color: 
+    #FFFFFF;
+}
+.logo{
+    color: #FFFFFF;
+    height: 2.5rem;
+}
+.header h3{
+    color: #FFFFFF;
+    margin-top: 0.1rem;
+    font-size: 1.5625rem;
+}
+.right button{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #333333;
+    border: none;
+    cursor: pointer;
+}
+.right h5{
+    font-size: 0.875rem;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 1rem;
+    background-color: #333333;
+    flex-wrap: wrap;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 0.1rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.information{
+    padding: 0 4rem;
+}
+.pic{
+    margin-bottom: 2rem;
+    color: #30302E;
+}
+.pic img{
+    max-width: 9rem;
+    border-radius: 20px;
+}
+.pic p{
+    margin-left: 3.5rem;
+    font-size: 23px;
+    margin-top: -0.4rem;
+    margin-bottom: 0.3rem;
+    cursor: pointer;
+}
+.profile{
+    display: flex;
+    margin-top: 1rem;
+    color: #30302E;
+    cursor: pointer;
+}
+.profile h3{
+    margin: 0 1rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+}
+#shi{
+    margin-left: 2.7rem;
+}
+#thi{
+    margin-left: 1.7rem;
+}
+.logout{
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.course{
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    color: #30302E;
+    box-shadow: 0 10px 10px rgba(200, 200, 200, 0.69);
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+.weep h3{
+    margin-top: 2rem;
+    display: flex;
+}
+.weep h3 span{
+    margin: 0 1rem;
+}
+.weep input{
+    padding: 0.5rem ;
+    margin-left: 3rem;
+    margin-top: 0.6rem;
+    border-radius: 17px;
+    border: none;
+    background-color: #F1F3FD;
+}
+.weep button{
+    padding: 0.4rem 1rem ;
+    margin: 0.6rem 1rem 0rem 3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #F1F3FD;
+}
+#style{
+    font-size: 1.25rem;
+    margin-top: -0.2rem;
+    margin-left: -0.5rem;
+    color: #CC4174;   
+    display: none; 
+}
+#styles{
+    font-size: 1.25rem;
+    margin-top: -0.1rem;
+    margin-left: -0.5rem;
+    color: #CC4174;   
+    display: none; 
+}
+#styless{
+    font-size: 1.25rem;
+    margin-top: -0.1rem;
+    margin-left: -0.5rem;
+    color: #CC4174;   
+    display: none; 
+}
+.stylessss{
+    font-size: 1.25rem;
+    margin-top: -0.1rem;
+    margin-left: -0.5rem;
+    color: blue;   
+    cursor: pointer;
+}
+.red{
+    margin-left: 320px;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+#graduates{
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+#graduatess{
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+#graduatesss{
+    display: none;
+    margin-left: 2rem;
+}
+#graduatessss{
+    display: none;
+    margin-left: 2rem;
+}
+.graduates{
+    display: flex;
+    flex-wrap: wrap;
+}
+.slideContainer{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.security{
+    display: flex;
+    justify-content: space-between;
+}
+.slider{
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(90deg, yellow) 20% green 60%; 
+    color: black;
+    outline: none;
+    opacity: 0.7;
+    border-radius: 12px;
+    box-shadow: 1px black;
+}
+.slideContainer1{
+    width: 30%;
+}
+.slideContainer p{
+    margin-top: 50px;
+    opacity: 0.6;
+    color: black;
+}
+.slideContainer1 p{
+    margin-top: 50px;
+    opacity: 0.6;
+    color: black;
+}
+.next1 button{
+    margin-top: -3rem;
+    margin-left: 40rem;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.field{
+    margin-bottom: 2rem;
+}
+.field h3{
+    margin-top: 1rem;
+}
+.field h3 span{
+    margin: 0 1rem;
+}
+.field input{
+    padding: 0.5rem ;
+    margin-left: 4.5rem;
+    margin-top: 0.6rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #F1F3FD;
+}
+.next button{
+    margin-top: 2rem;
+    margin-left: 13rem;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: 
+    #066AEF;
+    cursor: pointer;
+}
+.next button .next2{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+.first p{
+    margin-left: 5rem;
+}
+.slideContaine{
+    width: 30%;
+    margin-top: 20px;
+    display: flex;
+}
+.slideContaine p{
+    margin-left: 5rem;
+    opacity: 0.6;
+    color: black;
+}
+.auto{
+    margin-right: 6rem;
+}
+.sec{
+    display: flex;
+    width: 20rem;
+}
+.graduates1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding: 1rem;
+    box-shadow: 0 10px 10px rgba(200, 200, 200, 0.69);
+    border-radius: 10px;
+}
+.file{
+    display: flex;
+    margin-top: 1rem;
+}
+.file h3{
+    margin: 0 1rem;
+    margin-top: 0.3rem;
+}
+.interest{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+#Names{
+    padding: 1rem 6rem;
+    border-radius: 20px;
+    background-color: 
+    #F1F3FD;
+    margin-top: 3rem;
+    border: none;
+}
+.video{
+    display: flex;
+    margin-top: 1.5rem;
+    color: #ACB7EB;
+}
+.video .vid{
+    margin-left: 4rem;
+}
+.video span{
+    color: #CC4174;
+    margin-left: 0.5rem;
+}
+.prof{
+    display: flex;
+    margin-top: 2rem;
+    color:  #066AEF;
+}
+.prof h3{
+    margin: 0 1rem;
+    margin-top: 0.4rem;  
+}
+.profile-flex{
+    display: flex;
+}
+.topic{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    color: #066AEF;
+    font-size: 17px;
+    cursor: pointer;
+}
+.topic-2{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.topic-3{
+    margin-left: 2rem;
+}
+.topic-4{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.topic-5{
+    display: flex;
+    cursor: pointer;
+}
+.topic-5 button{
+    display: flex;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    color: #30302E;
+    background: #F1F3FD;
+    cursor: pointer;
+    border: none;
+}
+.topic-5 p{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.topic-6{
+    display: flex;
+    color: #30302E;
+    cursor: pointer;
+}
+.topic-6 button{
+    display: flex;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    background: #F1F3FD;
+    opacity: 0.6;
+    color: #30302E;
+    cursor: pointer;
+    border: none;
+}
+.topic-6 p{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.topic-7{
+    overflow-y: scroll;
+    height: 400px;
+    margin-left: 4rem;
+    box-shadow: 0 10px 10px rgba(200, 200, 200, 0.69);
+    border-radius: 10px;
+}
+.topic-8{
+    display: flex;
+    margin-bottom: 0.6rem;
+    font-family: 'HelveticaNeueCyr';
+    cursor: pointer;
+}
+.adjust{
+    margin-right: 0.7rem;
+}
+.just{
+    font-size: 1rem;
+}
+.topic-20{
+    margin-left: 3rem;
+}
+.topic-21{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.topic-22 button{
+    display: flex;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    margin-top: 1.4rem;
+    background: #F1F3FD;
+    color: #30302E;
+    opacity: 0.6;
+    cursor: pointer;
+    border: none;
+}
+.rex{
+    margin-top: 0.1rem;
+}
+.image{
+    width: 40rem;
+}
+.top{
+    margin-top: 2rem;
+    font-size: 18px;
+}
+.top-8{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-family: 'HelveticaNeueCyr';
+    font-size: 8px;
+    margin-top: 1rem;
+}
+.adj{
+    margin-right: 0.7rem;
+}
+.jus{
+    font-size: 1rem;
+    margin-top: -0.4rem;
+}
+.just{
+    margin-right: 0.6rem;
+}
+.one{
+    margin-right: 0.5rem;
+}
+.two{
+    margin-right: -0.5rem;
+}
+.three{
+    margin-right: -0.5rem;
+}
+.four{
+    margin-right: 0.2rem;
+}
+.dent{
+    display: flex;
+    padding: 5px 10px;
+    border: 1px solid #ACB7EB;
+    border-radius: 11px;
+    margin-right: 1rem;
+    margin-left: 2.5rem;
+    font-size: 14px;
+}
+.dent p{
+    margin-left: 1rem;
+}
+.dent-1{
+    display: flex;
+    padding: 5px 10px;
+    border: 1px solid #ACB7EB;
+    border-radius: 11px;
+    margin-right: 1rem;
+    margin-left: 2.5rem;
+    font-size: 14px;
+    background: linear-gradient(180deg, #860164 0%, #CA0151 100%);
+    cursor: pointer;
+}
+.dent-1 p{
+    margin-left: 1rem;
+}
+.pee{
+    margin-left: 25rem;
+}
+.topic-30{
+    margin-left: 3rem;
+}
+.topic-31{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.topic-32{
+    display: flex;
+    padding: 0.5rem 2.7rem;
+    background: #F1F3FD;
+    border-radius: 17px;
+    width: 50px;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.topic-33{
+    margin-left: 2rem;
+    display: flex;
+    padding: 0.5rem 2.3rem;
+    background: #F1F3FD;
+    opacity: 0.6;
+    border-radius: 17px;
+    width: 50px;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.rex3{
+    margin-top: 0.1rem;
+}
+.image3{
+    width: 27rem;
+}
+.top3{
+    margin-top: 2rem;
+    font-size: 18px;
+}
+.dddd{
+    width: 1.8rem;
+    border-radius: 5rem;
+    margin-left: 0.5rem;
+    border: none;
+}
+.part{
+    display: flex;
+    margin-top: 7rem;
+    background-color: 
+    #FFFFFF;
+    margin-left: 3rem;
+}
+.part-10{
+    margin-right: 4rem;
+    margin-left: 2rem;
+}
+.part-10 h3{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: -1rem;
+    color: #000000;
+}
+.part-11{
+    display: flex;
+    padding: 0.5rem 3rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    color: #30302E;
+    background: #F1F3FD;
+    opacity: 0.6;
+}
+#wants{
+    display: flex;
+    padding: 0.5rem 3rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    color: #30302E;
+    background: #F1F3FD;
+}
+.topic-21{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.part-22{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin-top: 5rem;
+    background: #F1F3FD;
+    opacity: 0.6;
+    color: #30302E;
+    width: 6rem;
+    margin-left: 1rem
+}
+#want{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin-top: 5rem;
+    background: #F1F3FD;
+    color: #30302E;
+    width: 6rem;
+    margin-left: 1rem
+}
+.part-23{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    background: #F1F3FD;
+    opacity: 0.6;
+    color: #30302E;
+    width: 6rem;
+    margin-left: 1rem
+}
+#want-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    background: #F1F3FD;
+    color: #30302E;
+    width: 6rem;
+    margin-left: 1rem;
+}
+.topic-23{
+    display: flex;
+    cursor: pointer;
+}
+.topic-23 button{
+    display: flex;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    margin-top: 1.4rem;
+    background: #F1F3FD;
+    opacity: 0.6;
+    color: #30302E;
+    margin-left: 2rem;
+    cursor: pointer;
+    border: none;
+}
+.part-30{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    padding: 0.3rem 3rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    color: #30302E;
+    background: linear-gradient(180deg, #880163 0%, #C90151 100%);
+}
+#asset{
+    margin-left: 10rem;
+}
+#partsss{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    overflow-y: scroll;
+    height: 200px;
+    display: none;
+    margin-bottom: 2rem;
+    width: 24rem;
+    margin-left: 1.7rem;
+    cursor: pointer;
+}
+.part-41{
+    display: flex;
+    margin-top: 1rem;
+}
+.part-41 h5{
+   margin-top: 0.5rem;
+    font-size: 1rem;
+}
+.suit{
+    margin-left: 3rem;
+}
+.suit h3{
+    margin-left: 8rem;
+    font-size: 1rem;
+}
+.suit-10{
+    margin-bottom: 4rem;
+}
+.note-10{
+    overflow-y: scroll;
+    height: 400px;
+    box-shadow: 0 10px 10px rgba(200, 200, 200, 0.69);
+    border-radius: 10px;
+}
+.notesss{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    color: #066AEF;
+    font-size: 17px;
+}
+.note-11{
+    margin: 1rem 1rem 2rem 1rem;
+    box-shadow: 0 1px 1px rgba(200, 200, 200, 0.69);
+    border-radius: 10px;
+}
+.note-12{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.note-13 p{
+    word-break: break-word; 
+    width: 35rem;
+    margin: 0 0.7rem;
+    line-height: 1.5rem;
+}
+.just-10{
+    font-size: 1rem;
+    margin-top: 0.4rem;
+}
+.topic-27{
+    display: flex;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    margin-top: 1.4rem;
+    background: #F1F3FD;
+    color: #30302E;
+    margin-left: 2rem;
+}
+.lab-1{
+    padding: 1rem;
+    background: #F1F3FD;
+    font-size: 0.7rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    width: 29rem;
+    margin-left: 2rem;
+}
+.lab-13 p{
+    word-break: break-word; 
+    width: 35rem;
+    line-height: 1.5rem;
+    margin: 1rem 1.5rem;
+    font-size: 0.93rem;
+}
+.lab-2{
+    margin-right: 0.2rem;
+    background: #ACB7EB;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.lab-3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    margin: 0rem 1.5rem;
+    margin-bottom: 2rem
+}
+.lab-4{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    background: #ACB7EB;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: white;
+    margin-right: 0.7rem;
+}
+.lab-4a{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    cursor: pointer;
+}
+#upload_button {
+    display: inline-block;
+  }
+  #upload_button input[type=file] {
+    display:none;
+}
+.lab-5{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    color: #ACB7EB;
+    margin-left: 0.7rem;  
+}
+.lab-6{
+    margin-right: -0.8rem;
+}
+.lab-7{
+    display: flex;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    margin-top: 1.4rem;
+    background: #F1F3FD;
+    color: #30302E;
+    margin-left: 2rem;
+}
+.lab-50 button{
+    background: green;
+    border-radius: 12px;
+    padding: 0.8rem 4rem;
+    border-radius: 30px;
+    width: 4rem;
+    margin-left: 0.7rem;  
+    cursor: pointer;
+    border: none;
+}
+.lab-50 button p{
+    color: #FFFFFF;
+    margin-left: -2rem;
+    font-size: 1rem;
+}
+#graduatesssss{
+    margin: 1rem 1rem 2rem 1rem;
+    box-shadow: 0 10px 10px rgba(200, 200, 200, 0.69);
+    border-radius: 10px;
+    width: 22.5rem;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 1rem 1.7rem;
+    overflow-y: scroll;
+    height: 300px;
+    position: absolute;
+    margin-top: -51.2rem;
+    margin-left: 7.9rem;
+    display: none;
+}
+.lab-9{
+    text-align: right;
+    margin-top: 1rem;
+}
+.lab-10{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    background: #ACB7EB;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border-radius: 10px;
+}
+.lab-12{
+    word-break: break-word; 
+    width: 21rem;
+    margin-top: 1rem;
+    line-height: 1.7rem;
+}
+.lab-15{
+    margin-left: -4.5rem;
+}
+.list{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.list-10{
+    width: 15rem;
+    box-shadow: 0 10px 10px rgba(200, 200, 200, 0.69);
+    border-radius: 10px;
+}
+.list-11{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    background:  #F7F8FE;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    width: 10rem;
+    margin-left: 1rem;
+}
+.list-12{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    background: #ACB7EB;
+    padding: 1.2rem 1rem;
+    border-radius: 10px;
+    margin: 1.5rem 0rem;
+    cursor: pointer;
+}
+.list-13{
+    margin-top: -0.2rem;
+}
+.list-14{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 29px #F0F3FF;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.list-15{
+    margin-left: 1rem;
+}
+.list-20{
+    width: 28rem;
+    box-shadow: 0 10px 10px rgba(200, 200, 200, 0.69);
+    border-radius: 10px;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    background: #F7F8FE;
+    border-radius: 20px;
+    overflow-y: scroll;
+    height: 400px;
+}
+.list-21{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    width: 22rem;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(180deg, #880163 0%, #C90151 100%);
+    box-shadow: 0px 4px 29px #F0F3FF;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.boss{
+    border: none;
+    background: linear-gradient(180deg, #880163 0%, #C90151 100%);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#featuresDropDownArrow{
+    width: 1rem;
+    height: 0.8rem;
+    color: #FFFFFF;
+}
+.list-22{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.list-22a{
+    margin-left: -12rem;
+    color: #CC4174;
+}
+.list-23{
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+.list-23a{
+    padding: 0.5rem 1rem;
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: 13rem;
+}
+.list-23b{
+    margin-left: 12rem;
+    color: #ACB7EB;
+}
+.list-24{
+    padding: 0.5rem 1rem;
+    margin-top: -2rem;
+}
+.list-24a{
+    padding: 0.5rem 1rem;
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: 22rem;
+}
+.list-24b{
+    margin-left: 19rem;
+    color: #ACB7EB;
+}
+.list-25{
+    margin-left: 12rem;
+}
+.list-26{
+     display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    color: #ACB7EB;
+}
+.list-26a{
+    margin-left: 10rem;
+    color: #ACB7EB;
+}
+.list-27a{
+    padding: 0.5rem 1rem;
+    background: #ACB7EB;
+    border-radius: 12px;
+    width: 13rem;
+    color: #FFFFFF;
+}
+.list-30{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin: 1rem;
+}
+.list-31{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #E4E8FC;
+    border-radius: 12px;
+    padding: 0.8rem 2rem;
+}
+.list-31a{
+    margin: 0rem 0.5rem;
+    color: #ACB7EB;
+}
+.list-32{
+    background: linear-gradient(180deg, #800165 0%, #D3014E 100%);
+    border-radius: 12px;
+    padding: 0.8rem 1rem;
+    width: 4rem;
+    margin-left: 1.5rem;
+}
+.list-32 p{
+    margin-left: 0.8rem;
+    color: #FFFFFF;
+}
+.list-35{
+    display: flex;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    margin-top: 1.4rem;
+    background: #F1F3FD;
+    color: #30302E;
+    margin-left: 2rem;
+}
+.list-40{
+    margin-left: 3rem;
+}
+.list-41{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    overflow-y: scroll;
+    height: 200px;
+    width: 26rem;
+    box-shadow: 0 10px 10px rgba(200, 200, 200, 0.69);
+    border-radius: 10px;
+    margin-top: -20.5rem;
+    margin-left: 14.5rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(118, 136, 230, 0.07);
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+@media screen and (max-width: 950px) {
+    .container{
+        flex-wrap: nowrap;
+    }
+    .next{
+        margin-left: -6rem;
+    }
+    .next1{
+        margin-left: -9rem;
+    }
+    .topic-2{
+        display: grid;
+    }
+    .topic-2{
+        width: 18rem;
+    }
+    .topic-7{
+        margin-bottom: 2rem;
+    }
+    .image{
+        width: 35rem;
+    }
+    .field{
+        width: 35rem;
+        margin-left: -1rem;
+    }
+    .graduates1{
+        width: 25rem;
+        box-shadow: 0 10px 10px rgba(200, 200, 200, 0.69);
+        border-radius: 10px;
+    }
+    .auto{
+        margin-right: 2rem;
+        width: 25rem;
+        margin: 1rem;
+        margin-left: -2.5rem;
+    }
+    .slideContaine{
+        display: grid;
+    }
+}
+@media screen and (max-width: 800px) {
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .list-10{
+        margin-left: 8rem;
+    }
+    .list-20{
+        margin-top: 2rem;
+    }
+    .graduates1{
+        width: 20rem;
+        box-shadow: 0 10px 10px rgba(200, 200, 200, 0.69);
+        border-radius: 10px;
+    }
+    .auto{
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container{
+        display: grid;
+        margin-left: 6rem;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+    .course{
+        width: 25rem;
+        padding: 1rem 1.5rem;
+    }
+    .slideContainer{
+        justify-content: space-between;
+        width: 15rem;
+    }
+    .slideContainer1{
+        margin-right: 6rem;
+    }
+    .next1{
+        margin-left: -28rem;
+    }
+    .topic-3{
+        width: 27rem;
+        margin-left: -0.5rem;
+    }
+    .topic-4{
+        margin-left: 4rem;
+    }
+    .topic-20{
+        width: 25rem;
+        margin-left: 4rem;
+    }
+    .topic-22 button{
+        padding: 0.5rem 1rem;
+    }
+    .topic-23 button{
+        padding: 0.5rem 1rem;
+    }
+    .topic-24 button{
+        padding: 0.5rem 1rem;
+    }
+    .vie{
+        width: 27rem;
+        margin-left: -1.5rem;
+    }
+    .image{
+        width: 25rem;
+        margin-left: -1rem;
+    }
+    .topic-21{
+        margin-left: -1rem;
+    }
+    .top{
+        margin-left: -1rem;
+    }
+    .note-10{
+        width: 27rem;
+        margin-left: -3rem;
+        height: 35rem;
+    }
+    .lab-13 p{
+        width: 25rem;
+        font-size: 20px;
+    }
+    .lab-1{
+        width: 23rem;
+        margin-left: 1rem;
+    }
+    .lab-3{
+        margin: 0rem 1rem;
+        margin-bottom: 2rem
+    }
+    .note-11{
+        width: 25rem;
+    }
+    .note-13 p{
+        width: 25rem;
+        margin-top: 0.5rem;
+    }
+    .list-10{
+        margin-left: 5rem;
+    }
+    .list-20{
+        margin-left: -2rem;
+    }
+    #graduatesssss{
+        width: 20rem;
+        margin-top: -71.2rem;
+        margin-left: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #graduatesssss{
+        width: 20rem;
+        margin-top: -109.2rem;
+        margin-left: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header{
+        display: grid;
+        font-size: 20px;
+    }
+    .header h3{
+        display: grid;
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+    .topic-3{
+        width: 22rem;
+        margin-left: -0.5rem;
+    }
+    .topic-4{
+        margin-left: 3rem;
+    }
+    .topic-20{
+        width: 22rem;
+    }
+    .topic-21{
+        margin-left: -2rem;
+    }
+    .topic-23{
+        margin-left: -2rem;
+    }
+    .vie{
+        width: 20.5rem;
+        margin-left: -1.5rem;
+    }
+    .image{
+        width: 20rem;
+    }
+    .dent{
+        display: flex;
+        padding: 0px 5px;
+        margin-left: -0.5rem;
+    }
+    .dent p{
+        margin-left: 0.8rem;
+    }
+    .dent-1{
+        display: flex;
+        padding: 0px 5px;
+        margin-left: -0.5rem;
+    }
+    .dent-1 p{
+        margin-left: 0.8rem;
+    }
+    .note-10{
+        width: 20rem;
+        margin-left: -2rem;
+        height: 55rem;
+    }
+    .lab-13 p{
+        width: 17rem;
+    }
+    .lab-1{
+        width: 17rem;
+        margin-left: 1rem;
+    }
+    .lab-3{
+        margin: 0rem 1rem;
+        margin-bottom: 2rem;
+        display: grid;
+    }
+    .lab-4{
+        padding: 0.5rem 0.2rem;
+    }
+    .lab-5{
+        margin-left: 0.2rem;  
+    }
+    .lab-50 button{
+        padding: 0.8rem 2.5rem;
+    }
+    .note-11{
+        width: 18rem;
+    }
+    .note-13 p{
+        width: 17rem;
+        height: 22rem;
+        margin-top: 0.5rem;
+    }
+    .list-10{
+        margin-left: 1rem;
+    }
+    .list-20{
+        width: 19rem;
+    }
+    .list-21{
+        width: 17rem;
+        margin-left: -0.7rem;
+    }
+    .list-22a{
+        margin-left: -8rem;
+    }
+    .list-23{
+        margin-left: -1rem;
+    }
+    .list-24{
+        margin-top: 1rem;
+    }
+    .list-24a{
+        width: 12rem;
+    }
+    .list-24b{
+        margin-left: 11rem;
+    }
+    .list-26c{
+        margin-left: -6rem;
+    }
+    .list-26a{
+        margin-left: -2rem;
+    }
+    .list-27a{
+        width: 10rem;
+        margin-left: -6rem;
+    }
+    .list-30{
+        margin-left: -1rem;
+    }
+    #partsss{
+        margin-left: 0.5rem;
+        width: 17rem;
+    }
+    #graduatesssss{
+        width: 15rem;
+        margin-top: -91.2rem;
+        margin-left: 1rem;
+    }
+    .red{
+        margin-left: 14rem;
+    }
+    .lab-10{
+        width: 14rem;
+    }
+    .lab-12{
+        width: 16rem;
+        font-size: 17px;
+    }
+    .lab-15{
+        margin-left: 0.1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container{
+        display: grid;
+        margin-left: 3rem;
+    }
+    .course{
+        width: 19rem;
+        padding: 1rem 1.5rem;
+        margin-left: -1rem;
+    }
+    .next{
+        margin-left: -8rem;
+    }
+    .next1{
+        margin-left: -30rem;
+    }
+    #graduatesssss{
+        width: 15rem;
+        margin-top: -127.2rem;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+        display: grid;
+        margin-left: 1.5rem;
+    }
+    .course{
+        width: 15rem;
+        padding: 1rem 1.5rem;
+        margin-left: 1.8rem;
+    }
+    .next{
+        margin-left: -8rem;
+    }
+    .topic-3{
+        width: 22rem;
+        margin-left: -2rem;
+    }
+    .topic-5 button{
+        padding: 0.5rem 1rem;
+    }
+    .topic-6 button{
+        padding: 0.5rem 1rem;
+    }
+    .topic-22 button{
+        padding: 0.5rem 0.5rem;
+    }
+    .topic-23 button{
+        padding: 0.5rem 0.5rem;
+    }
+    .vie{
+        width: 17rem;
+        height: 13rem;
+        margin-left: -1.5rem;
+    }
+    .top{
+        margin-left: -1.5rem;
+        font-size: 20px;
+    }
+    .image{
+        width: 18rem;
+    }
+    .note-10{
+        width: 20rem;
+        margin-left: -3.3rem;
+        height: 55rem;
+    }
+    .graduates1{
+        width: 18rem;
+        box-shadow: 0 10px 10px rgba(200, 200, 200, 0.69);
+        border-radius: 10px;
+    }
+    .auto{
+        width: 17rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .topic-3{
+        width: 19rem;
+        margin-left: -1rem;
+    }
+    .topic-4{
+        margin-left: 2rem;
+    }
+    .topic-7{
+        margin-left: 1.2rem;
+    }
+    .top{
+        margin-left: -3rem;
+        font-size: 20px;
+    }
+    .image{
+        width: 18rem;
+        margin-left: -4.3rem;
+    }
+    .dent{
+        display: flex;
+        padding: 0px 5px;
+    }
+    .dent p{
+        margin-left: 0.8rem;
+    }
+    .dent-1{
+        display: flex;
+        padding: 0px 5px;
+    }
+    .dent-1 p{
+        margin-left: 0.8rem;
+    }
+    .image{
+        width: 15rem;
+        margin-left: -1.9rem;
+    }
+    .top{
+        margin-left: -1.5rem;
+        font-size: 20px;
+    }
+    .list-10{
+        margin-left: -2rem;
+    }
+    .list-20{
+        width: 17rem;
+        margin-left: -3rem;
+    }
+    .list-21{
+        width: 16rem;
+        margin-left: -0.7rem;
+    }
+    .list-22a{
+        margin-left: -6rem;
+    }
+    .list-23{
+        margin-left: -1rem;
+    }
+    .list-24{
+        margin-top: 1rem;
+    }
+    .list-24a{
+        width: 12rem;
+    }
+    .list-24b{
+        margin-left: 11rem;
+    }
+    .list-26c{
+        margin-left: -6rem;
+    }
+    .list-26a{
+        margin-left: -2rem;
+    }
+    .list-27a{
+        width: 10rem;
+        margin-left: -7rem;
+    }
+    .list-30{
+        margin-left: -1rem;
+    }
+    .list-32{
+        margin-left: 0.2rem;
+        padding: 0.5rem 0.5rem;
+    }
+    #partsss{
+        margin-left: 0.5rem;
+        width: 17rem;
+    }
+    .graduates1{
+        width: 17rem;
+        box-shadow: 0 10px 10px rgba(200, 200, 200, 0.69);
+        border-radius: 10px;
+    }
+    .auto{
+        width: 17rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .container{
+        display: grid;
+        margin-left: -0.3rem;
+    }
+    .course{
+        width: 10rem;
+        padding: 1rem 1.5rem;
+        margin-left: 2.3rem;
+    }
+    .weep input{
+        width: 5rem;
+    }
+    .next{
+        margin-left: -10rem;
+        width: 3rem;
+    }
+    .slideContainer{
+        justify-content: space-between;
+        width: 15rem;
+        margin-left: 1.5rem;
+    }
+    .slideContainer1{
+        margin-right: 2rem;
+    }
+    .next1{
+        margin-left: -33rem;
+    }
+    .topic-3{
+        width: 18rem;
+        margin-left: -2rem;
+    }
+    .topic-5 button{
+        padding: 0.1rem 0.5rem;
+    }
+    .topic-6 button{
+        padding: 0.1rem 0.5rem;
+    }
+    .topic-22 button{
+        padding: 0.5rem 0.2rem;
+    }
+    .topic-23 button{
+        padding: 0.5rem 0.2rem;
+    }
+    .topic-20{
+        margin-left: 3rem;
+    }
+    .vie{
+        width: 15rem;
+        height: 11rem;
+        margin-left: -1.5rem;
+    }
+    .top{
+        margin-left: -2.5rem;
+        font-size: 12px;
+        margin-top: 0.9rem;
+    }
+    .image{
+        width: 15rem;
+        margin-left: -1.9rem;
+    }
+    .topic-7{
+        margin-left: 2rem;
+    }
+    .dent{
+        display: flex;
+        padding: 0px 5px;
+        margin-left: -0.5rem;
+    }
+    .dent p{
+        margin-left: 0.8rem;
+    }
+    .dent-1{
+        display: flex;
+        padding: 0px 5px;
+        margin-left: -0.5rem;
+    }
+    .dent-1 p{
+        margin-left: 0.8rem;
+    }
+    .note-10{
+        width: 18rem;
+        margin-left: -3.9rem;
+        height: 55rem;
+    }
+    .lab-13 p{
+        width: 15rem;
+    }
+    .lab-1{
+        width: 15rem;
+        margin-left: 1rem;
+    }
+    .lab-3{
+        display: block;
+        font-size: 20px;
+    }
+    .lab-5{
+        padding: 0rem 1.3rem; 
+        margin: 0.8rem 0rem;
+    }
+    .lab-4{
+        padding: 0.5rem 4rem;
+    }
+    .lab-4a{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 0.2rem 1rem;
+        align-items: center;
+        cursor: pointer;
+    }
+    .lab-50 button{
+        padding: 1rem 7.9rem;
+        margin-left: -0.1rem;
+    }
+    .note-11{
+        width: 16rem;
+    }
+    .note-13 p{
+        width: 15rem;
+        height: 25rem;
+        margin-top: 0.5rem;
+    }
+    .graduates1{
+        width: 16rem;
+        box-shadow: 0 10px 10px rgba(200, 200, 200, 0.69);
+        border-radius: 10px;
+    }
+    .auto{
+        width: 15rem;
+    }
+    .first{
+        margin-left: -1rem;
+    }
+    .file{
+        margin-left: 2rem;
+    }
+      #graduatesssss{
+        width: 15rem;
+        margin-top: -162.2rem;
+        margin-left: 1rem;
+    }
+}

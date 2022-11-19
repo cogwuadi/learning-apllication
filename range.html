@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <img src="./image_27-removebg-preview.png" alt="logo" class="logo">
+        <h3>Classroom Profile</h3>
+        <div class="right">
+            <button onclick="pages3()"> <h5>Go to Classroom</h5>
+                <p style="font-size: 1rem;"><i class='bx bx-chevron-right'></i></p>    
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="information">
+            <div class="pic">
+                <img src="./BeautyPlus_20180119191116_save-min.jpg" alt="picture">
+                <p><i class='bx bx-camera'></i></p>
+                <h3>Ogwuadi Collins</h3>
+            </div>
+
+            <div>
+                <div class="profile" onclick="pages31()">
+                    <p style="font-size: 2rem;"><i class='bx bx-user'></i></p>
+
+                    <h3>Profile</h3>
+
+                    <p style="font-size: 2rem;"><i class='bx bx-chevron-right' id="shi"></i></p>
+                </div>
+
+                <div class="profile" onclick="pages3()">
+                    <p style="font-size: 2rem;"><i class='bx bx-layer-plus'></i></p>
+
+                    <h3>Courses</h3>
+
+                    <p style="font-size: 2rem;"><i class='bx bx-chevron-right' id="thi"></i></p>
+                </div>
+
+                <div class="profile">
+                    <p style="font-size: 2rem;"><i class='bx bxs-badge-check'></i></p>
+
+                    <h3>Attendance</h3>
+
+                    <p style="font-size: 2rem;"><i class='bx bx-chevron-right'></i></p>
+                </div>
+            </div>
+
+            <div class="logout">
+                <p style="font-size: 1.8rem;"><i class='bx bx-log-out'></i></p>
+
+                <h3>Logout</h3>
+            </div>
+
+        </div>
+    
+       <div class="slideContainer">
+           <div class="slideContainer1">
+                <div>
+                    <div class="security">
+                        <p>cybersecurity</p>
+                        <p>Value: <span id="value"></span></p>
+                    </div>
+                    
+                    <input type="range" id="myRange" name="vol" min="1" max="10" value="1" class="slider">
+                
+                </div>
+
+                <div>
+                    <div class="security">
+                        <p>Developer</p>
+                        <p>Value: <span id="valuer"></span></p>
+                    </div>
+                    
+                    <input type="range" id="myRanger" name="vol" min="1" max="10" value="1" class="slider">
+                </div>
+
+                <div>
+                    <div class="security">
+                        <p>DevOps</p>
+                        <p>Value: <span id="value1"></span></p>
+                    </div>
+                    
+                    <input type="range" id="myRange1" name="vol" min="1" max="10" value="1" class="slider">
+                </div>
+
+                <div>
+                    <div class="security">
+                        <p>Designer</p>
+                        <p>Value: <span id="values"></span></p>
+                    </div>
+                    
+                    <input type="range" id="myRanges" name="vol" min="1" max="10" value="1" class="slider">
+                </div>
+           </div>
+
+           <div class="slideContainer1">
+            <div>
+                <div class="security">
+                    <p>Project Manager</p>
+                    <p>Value: <span id="value2"></span></p>
+                </div>
+                
+                <input type="range" id="myRange2" name="vol" min="1" max="10" value="1" class="slider">
+            
+            </div>
+
+            <div>
+                <div class="security">
+                    <p>Product Manager</p>
+                    <p>Value: <span id="value3"></span></p>
+                </div>
+                
+                <input type="range" id="myRange3" name="vol" min="1" max="10" value="1" class="slider">
+            </div>
+
+            <div>
+                <div class="security">
+                    <p>Marketer</p>
+                    <p>Value: <span id="value4"></span></p>
+                </div>
+                
+                <input type="range" id="myRange4" name="vol" min="1" max="10" value="1" class="slider">
+            </div>
+
+            <div>
+                <div class="security">
+                    <p>Writer</p>
+                    <p>Value: <span id="value5"></span></p>
+                </div>
+                
+                <input type="range" id="myRange5" name="vol" min="1" max="10" value="1" class="slider">
+            </div>
+        </div>       
+    </main>
+
+    <div class="next1">
+        <button onclick="pages()">Done</button>
+    </div>
+
+   
+
+
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
